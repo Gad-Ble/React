@@ -4,9 +4,16 @@
 }
 
 .posts {
-
+  padding-top: 10px;
 }
 
-.item {
-  
+.buttons {
+  display: flex;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+
+.postsBlock {
+  padding: 10px;
 }
