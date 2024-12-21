@@ -15,9 +15,9 @@ const MyPosts = () => {
     return <div className={classes.postsBlock}>
         <div>
             <h3>My posts</h3>
-            <div>
+            <div className={classes.postArea}>
                 <div>
-                    <textarea></textarea>
+                    <textarea className={classes.textArea} cols="100" rows="4"></textarea>
                 </div>
                 <div className={classes.buttons}>
                     <button>Add</button>

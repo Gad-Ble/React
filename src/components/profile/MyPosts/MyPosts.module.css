@@ -17,3 +17,13 @@
 .postsBlock {
   padding: 10px;
 }
+
+.postArea {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.textArea {
+  border: 50px;
+}
